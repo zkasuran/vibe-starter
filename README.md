@@ -1,5 +1,13 @@
 # KeeperHub: zero to your first onchain transaction
 
+## Demo
+
+<video src="https://github.com/zkasuran/vibe-starter/releases/download/v0.1.0/vibe-starter-demo.mp4" controls muted width="100%"></video>
+
+A 43-second real run: `npm run doctor`, then `npm start` landing a real Base
+Sepolia transaction through KeeperHub. If the player does not load in your
+browser, [watch or download the clip](https://github.com/zkasuran/vibe-starter/releases/download/v0.1.0/vibe-starter-demo.mp4).
+
 A clone-and-run starter that takes a new builder from nothing to a first
 verified onchain transaction through KeeperHub, with no browser and no faucet.
 It signs in with a wallet, mints an organization API key, finds the wallet that
