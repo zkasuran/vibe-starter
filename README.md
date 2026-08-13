@@ -2,11 +2,11 @@
 
 ## Demo
 
-<video src="https://github.com/zkasuran/vibe-starter/releases/download/v0.1.0/vibe-starter-demo.mp4" controls muted width="100%"></video>
+![vibe-starter landing a real Base Sepolia transaction through KeeperHub](demo/vibe-starter-demo.gif)
 
-A 43-second real run: `npm run doctor`, then `npm start` landing a real Base
-Sepolia transaction through KeeperHub. If the player does not load in your
-browser, [watch or download the clip](https://github.com/zkasuran/vibe-starter/releases/download/v0.1.0/vibe-starter-demo.mp4).
+The clip above plays inline: `npm start` lands a real Base Sepolia transaction, then the
+run reads the onchain receipt back. Watch the full 43-second version with sound, including
+the `npm run doctor` preflight: [vibe-starter-demo.mp4](https://github.com/zkasuran/vibe-starter/releases/download/v0.1.0/vibe-starter-demo.mp4).
 
 A clone-and-run starter that takes a new builder from nothing to a first
 verified onchain transaction through KeeperHub, with no browser and no faucet.
