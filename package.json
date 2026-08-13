@@ -1,5 +1,5 @@
 {
-  "name": "keeperhub-first-tx-quickstart",
+  "name": "vibe-starter",
   "version": "0.1.0",
   "private": true,
   "description": "Clone-and-run starter that takes a new builder from nothing to a first verified onchain transaction through KeeperHub, with no browser.",
