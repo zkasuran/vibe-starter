@@ -1,0 +1,24 @@
+{
+  "name": "keeperhub-first-tx-quickstart",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Clone-and-run starter that takes a new builder from nothing to a first verified onchain transaction through KeeperHub, with no browser.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "keygen": "tsx src/keygen.ts",
+    "doctor": "tsx src/doctor.ts",
+    "start": "tsx src/onboard.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "viem": "2.55.13"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.1",
+    "tsx": "4.23.12",
+    "typescript": "5.9.3"
+  }
+}
